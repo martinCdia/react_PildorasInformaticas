@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+.galeria {
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.galeria div {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}

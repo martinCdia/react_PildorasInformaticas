@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>Galería de imágenes</h1>
+
+    <div class="formulario">
+        <input type="text" id="imagenURL" placeholder="URL de la imagen">
+        <input type="text" id="pieFoto" placeholder="Pie de foto">
+        <button onclick="agregaImagen()">Agregar Imagen</button>
+    </div>
+
+    <div class="galeria" id="galeriaImagenes">
+        <div class="">
+            <img src="./imgs/imagen1.jpg" alt="Imagen 1" width="250" height="200">
+            <p>Pie de foto Imagen 1</p>
+        </div>
+        <div class="">
+            <img src="./imgs/imagen2.jpg" alt="Imagen 2" width="250" height="200">
+            <p>Pie de foto Imagen 2</p>
+        </div>
+        <div class="">
+            <img src="./imgs/imagen3.jpg" alt="Imagen 3" width="250" height="200">
+            <p>Pie de foto Imagen 3</p>
+        </div>
+        <div class="">
+            <img src="./imgs/imagen4.jpg" alt="Imagen 4" width="250" height="200">
+            <p>Pie de foto Imagen 4</p>
+        </div>
+    </div>
+
+    <script src="./galeria.js"></script>
+</body>
+</html>
