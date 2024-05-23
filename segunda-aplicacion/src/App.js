@@ -8,7 +8,9 @@ function App() {
     "setResultado" nos va a permitir modificar el estado de ese componente 
   */
   const [resultado, setResultado] = useState(null);
+
   const elemento = <h1 className="centrar-titulo">Hola alumnos</h1>
+  
   const botonPulsado = () => {
     const result = suma(7,5);
     setResultado(result);
